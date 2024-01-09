@@ -1,0 +1,20 @@
+.banner {
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")
+    center center;
+  height: 50vh;
+  position: relative;
+}
+.banner > h1 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+.banner > h1 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
